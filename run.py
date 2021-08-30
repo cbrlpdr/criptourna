@@ -2,7 +2,7 @@ import datetime
 from flask import Flask, jsonify, request
 # import requests
 from uuid import uuid4
-from blockchain import Blockchain, hash
+from criptourna.models.blockchain import Blockchain, hash
 
 app = Flask(__name__)
 
